@@ -1,0 +1,18 @@
+packages: .
+
+-- Uncomment and adjust the following lines if you need to help Cabal
+-- locate your C libraries.  Copy them into a separate
+-- cabal.project.local file if you prefer not to commit system‑specific
+-- settings to version control.
+--
+-- package *
+--   extra-include-dirs:
+--     /usr/local/mysql/include
+--     /opt/homebrew/opt/openssl@3/include
+--     /opt/homebrew/opt/zstd/include
+--     /opt/homebrew/opt/pcre/include
+--   extra-lib-dirs:
+--     /usr/local/mysql/lib
+--     /opt/homebrew/opt/openssl@3/lib
+--     /opt/homebrew/opt/zstd/lib
+--     /opt/homebrew/opt/pcre/lib

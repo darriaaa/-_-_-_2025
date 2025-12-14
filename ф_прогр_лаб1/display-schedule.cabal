@@ -1,0 +1,43 @@
+cabal-version:      >=1.10
+
+-- This is the cabal file for the display schedule project.  It
+-- defines a simple Haskell executable that connects to a MySQL
+-- database and exposes a small interactive console for managing a
+-- university's display‑class schedule.  The code relies on the
+-- mysql-simple library for database access.  You may need to
+-- install the appropriate C development libraries for MySQL,
+-- OpenSSL and zstd on your system to link mysql-simple.  See the
+-- README.md for notes on preparing your environment.
+
+name:                display-schedule
+version:             0.1.0.0
+synopsis:            Console application to manage a display class schedule
+description:         A simple console application written in Haskell that
+  demonstrates basic CRUD operations against a MySQL database.  The
+  program defines a small typeclass for CRUD operations and
+  implements it for several domain entities such as rooms and
+  workstations.  It uses the mysql-simple package for database
+  connectivity.  The accompanying schema.sql file can be used to
+  initialise an empty database.
+
+license:             BSD3
+license-file:        LICENSE
+author:              Your Name
+maintainer:          your.email@example.com
+category:            Database, Console
+build-type:          Simple
+extra-source-files:  schema.sql README.md
+
+executable display-schedule
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -fwarn-incomplete-uni-patterns -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >=4.9 && <5,
+                       text >=1.2,
+                       bytestring >=0.10,
+                       time >=1.6,
+                       mtl >=2.2,
+                       containers >=0.5,
+                       transformers >=0.5,
+                       mysql-simple >=0.4 && <0.5

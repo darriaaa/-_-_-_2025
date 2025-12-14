@@ -1,0 +1,9 @@
+package *
+  extra-include-dirs:
+    /opt/homebrew/opt/openssl@3/include,
+    /opt/homebrew/opt/zstd/include,
+    /opt/homebrew/opt/pcre/include
+  extra-lib-dirs:
+    /opt/homebrew/opt/openssl@3/lib,
+    /opt/homebrew/opt/zstd/lib,
+    /opt/homebrew/opt/pcre/lib
