@@ -1,0 +1,12 @@
+Programming is one of the most important disciplines in modern computer science.
+It allows developers to create complex software systems that are used in science, business, and everyday life.
+Functional programming is based on mathematical principles and treats functions as the primary building blocks of programs.
+The Haskell programming language is a well-known example of a purely functional language.
+It supports strong static typing, lazy evaluation, and powerful abstraction mechanisms.
+Because of these features, Haskell programs are often more reliable and easier to reason about formally.
+However, for beginners, the functional approach may seem difficult and unusual at first.
+Gradual learning of concepts such as recursion, higher-order functions, and monads significantly simplifies the learning process.
+Programming textbooks usually contain a large number of examples that demonstrate the core ideas of a language.
+Such examples help students understand both the syntax and the semantics of programs more deeply.
+The use of practical exercises is an essential part of effective programming education.
+That is why laboratory assignments play an important role in the training of future information technology specialists.
